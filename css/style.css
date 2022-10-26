@@ -112,9 +112,8 @@
 }	
 /*---------header starts---------*/
 .header-info{
-	padding-top:20px;
+	padding-top:10px;
 	padding-bottom:10px;
-	height:94px;
 }
 .paste{
     width:100%;
@@ -140,15 +139,15 @@
 .nav-bar li a.active home{
 	color:red;
 }
-.logo-header <.nav-bar li{
-	text-align:right;
+ul.nav-bar {
+    text-align: right;
 }
 .logo-header .nav-bar > li {
 	display:inline-block;
 }
 .logo-header .nav-bar li a{
-	font-size:15px;
-	font-weight:600;
+	font-size:16px;
+	font-weight:500;
 	text-decoration:none;
 	color:black;
 	padding-top:10px;
@@ -197,6 +196,9 @@
 .dropdown-nav li{
 	display:block;
 }
+.dropdown ul a:hover{
+	color:rgb(224 58 60);
+}
 .dropdown-nav li a{
 	text-align:left;
 	color:black;
@@ -213,12 +215,12 @@
 .dropdown-nav-sub{
 	position:absolute;
 	top:0;
-	right:100%;
+	left:100%;
 	min-width:190px;
 	background-color:white;
 	box-shadow:1px -2px 18px -6px #ccc;
 	border-radius:10px;
-	text-align:left;
+	text-align:right;
 	transform:translateX(-15px);
 	opacity:0;
 	visibility:hidden;
@@ -244,25 +246,27 @@
 }
 .footer i{
     font-size:30px;
-    align-items:center;
     color:white;
     position:absolute;
-    top:0;
+    top:5px;
+	right:8px;
 }
 /*--------header ends-------------------*/
 /*--------banner start------------------*/
 .banner{
     background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)),url(../image/hero-bg.jpg);
-	background-repeat:no repeat;
+	background-repeat:no-repeat;
 	background-size:cover;
-    background-position:center;
-	height:600px;
+	height:640px;
 	padding-top:110px;
 	margin-top:20px;
 }
+.banner-content{
+	padding-top:70px;
+}
 .banner-content h2{
-	font-size:56px;
-	font-weight:800;
+	font-size:48px;
+	font-weight:700;
 	color:white;
 	font-family:"raleway",san-serif;
 }
@@ -352,7 +356,7 @@
 }
 .icons{
 	font-size:40px;
-	color:red;
+	color:rgb(224 58 60);
 	margin-bottom:10px;
 	margin-top:-12px;
 }
@@ -396,7 +400,7 @@
     font-size:31px;
     padding-left:0px;
 	padding-top:10px;
-    color:red;
+    color:rgb(224 58 60);
     height:60px;
     width:60px;
     border-radius:80%;
@@ -448,7 +452,7 @@
 }
 .word-content i{
 	font-size:20px;
-	color:red;
+	color:rgb(224 58 60);
 }
 .stylish-word{
 	font-style:italic;
@@ -767,19 +771,28 @@
     margin-top:20px;
 	margin-bottom:20px;
 }
-.pre{
+.question-content{
+	position:relative;
+}
+.question-content i{
+	position:absolute;
+	right:0;
+}
+.question-content p{
 	font-size:18px;
     color:grey;
-    font-weight:400;
-}
-.question-content pre{
-	padding-bottom:10px;
+    font-weight:500;
+	padding-bottom:20px;
+	padding-top:20px;
+	color:rgb(52 58 64);
 	font-family: "raleway",sans-serif;
+}
+.question-content p:hover{
+	color:rgb(224 58 60);
 }
 /*---------------question ends-------------------*/
 /*---------------team start---------------------*/
 .team{
-	padding-top:20px;
 	padding-bottom:30px;
 	margin-bottom:154px;
 	margin-top:20px;
@@ -873,57 +886,30 @@
 	text-align-last:center;
 	color:grey;
 }
-.address{
-	background-color: white;
-    box-shadow: 0px 0px 30px rgb(214 215 216 / 60%);
-    height: 200px;
-    margin-bottom: 20px;
-    width: 220%;
-    text-align: center;
-    padding-top: 60px;
-    height: 200px;
-    font-family: "poppins",sans-serif;
-}
-.address i{
-	font-size: 36px;
-    border: 3px dotted rgb(231 102 104);
-    border-radius: 74%;
-    color: rgb(231 102 104);
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 6px;
-    padding-bottom:6px;
-}
-.address h2{
-	padding-top:14px;
-    color:grey;
-    padding-bottom:20px;
-}
-.info i{
-	position:absolute;
-	top:14%;
-	left:38%;
-	font-size: 36px;
-    border: 3px dotted rgb(231 102 104);
-    border-radius: 74%;
-    color: rgb(231 102 104);
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-top: 6px;
-    padding-bottom:6px;
-}
 .info{
-	position:relative;
 	background-color:white;
 	box-shadow:0px 0px 30px rgb(214 215 216 / 60%);
-	height:226px;
-	width:250px;
-    text-align:center;	
+	width:100%;
+    text-align:center;
+	margin-bottom:20px;
+}
+.info i{
+	font-size:26px;
+    border:2px dotted rgb(248, 212, 213);
+    border-radius:74%;
+    color: rgb(231 102 104);
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:6px;
+    padding-bottom:6px;
+    display:inline-block;
+    margin-top:30px;
 }
 .info h2{
-	padding-top:100px;
+	padding-top:20px;
 	color:grey;
 	padding-bottom:10px;
+	font-size:20px;
 }
 .info p{
 	padding-bottom:10px;
@@ -932,53 +918,38 @@
 .form{
 	background-color:white;
 	box-shadow:0px 0px 30px rgb(214 215 216 / 60%);
-    height:460px;
-	width:570px;	
+    padding-top:20px;	
 }
 .name{
-	width:88%;
-    height:46px;
-    margin-top:40px;
+	width:100%;
+    padding-top:20px;
     padding-left:10px;
     border:1px solid rgb(206 212 218);
     padding-right:10px;
     font-size:14px;
 	border-radius:6px;
-	margin-left: 20px;
-}
-.email{
-	width:88%;
-    height:46px;
-    margin-top:40px;
-    padding-left:10px;
-    border:1px solid rgb(206 212 218);
-    padding-right:10px;
-    font-size:14px;
-	border-radius:6px;
+	margin-bottom:20px;
 }
 .sub input{
-	width: 488px;
-    height: 46px;
-    margin-top: 20px;
-    padding-left: 11px;
-    border: 1px solid rgb(206 212 218);
-    padding-right: 10px;
-    font-size: 14px;
-    margin-bottom: 20px;
-    border-radius: 6px;
-    margin-left: 21px;
+	width:100%;
+    padding-top:10px;
+    padding-left:10px;
+    border:1px solid rgb(206 212 218);
+    font-size:14px;
+    padding-bottom:20px;
+    border-radius:6px;
+    margin-bottom:20px;
 }
 .msg textarea{
-	width: 488px;
-    height: 170px;
-    margin-top: 20px;
-    padding-left: 11px;
-    border: 1px solid rgb(206 212 218);
-    padding-right: 10px;
-    font-size: 14px;
-    margin-bottom: 20px;
-    border-radius: 6px;
-    margin-left: 21px;
+	width:100%;
+	height:150px;
+    padding-top:20px;
+    padding-left:11px;
+    border:1px solid rgb(206 212 218);
+    font-size:14px;
+    padding-bottom:20px;
+    border-radius:6px;
+	margin-bottom:10px;
 }
 .form button {
     background-color:rgb(231 102 104);
@@ -991,6 +962,8 @@
     margin-left:197px;
     font-size:16px;
     border:0;
+	margin-bottom:20px;
+	cursor:pointer;
 }
 /*---------------contact ends----------------------*/
 /*---------------details start---------------------*/
@@ -1042,24 +1015,8 @@
 	display:block;
 	padding-bottom:10px;
 }
-.our-services h2{
-	padding-top:60px;
-	font-size:16px;
-	font-weight:bold;
-	padding-bottom:10px;
+.link a:hover{
 	color:white;
-}
-.our-services a{
-	text-decoration:none;
-	color:grey;
-	display:block;
-	padding-bottom:10px;
-}
-.our-services i{
-	color:white;
-}
-.news{
-	position:relative;
 }
 .news h2{
 	padding-top:60px;
@@ -1073,22 +1030,45 @@
 	font-size:15px;
 	padding-bottom:26px;
 }
+form {
+    position:relative;
+    background-color:white;
+    overflow:hidden;
+    border-radius:6px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-right:106px;
+    padding-left:3px;
+	margin-left:40px;
+    margin-right:-63px;
+}
 .news input {
-    width:332px;
-    height:50px;
-	border-top-left-radius:6px;
+    width:100%;
+    height:100%;
+    border-top-left-radius:6px;
     border-bottom-left-radius:6px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-left:5px;
+    border:1px solid rgb(255 255 255);
 }
 .news button {
-    width:110px;
-    height:50px;
+    height:100%;
     position:absolute;
-    right:29px;
-	border-top-right-radius:6px;
+    right:0;
+    top:0;
+    border-top-right-radius:6px;
     border-bottom-right-radius:6px;
-	background-color:rgb(231 102 104);
-    color: white;
-    font-size: 18px;
+    background-color:rgb(231 102 104);
+    color:white;
+    font-size:18px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right:12px;
+    padding-left:12px;
+    cursor:pointer;
+    border:0;
 }
 /*---------------details ends----------------------*/
 /*---------------media start---------------------*/
