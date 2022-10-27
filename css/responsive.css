@@ -3,12 +3,6 @@
 		width:100%;
 	    overflow-y:hidden;
 	}
-	.logo-header{
-		display:none!important;
-	}
-	.d-sd-block{
-		display:block!important;
-	}
     .col-sd-1{
 	    width:8.33%;
 	    padding:0 15px;
@@ -57,6 +51,18 @@
 	    width:100%;
 	    padding:0 15px;
     } 
+	.d-sd-block{
+		display:block!important;
+	}
+	i.icofont-navigation-menu {
+        font-size:36px;
+        position:absolute;
+        top:16px;
+        right:12px;
+    }
+	ul.nav-bar {
+        display:none;
+    }
     .price-box{
 	    margin-bottom:20px;
     }
@@ -78,6 +84,11 @@
     .form button{
  	    margin-left:88px;
     }
+	.socialmedia{
+	    padding-top:22px;
+        padding-bottom:20px;
+		padding-left:0px;
+	}
 }
 /*-------smaller device--------*/
 @media(min-width:576px){
@@ -186,6 +197,51 @@
 	    width:100%;
 	    padding:0 15px;
     }
+	
+	i.icofont-navigation-menu {
+        font-size:36px;
+        position:absolute;
+        top:16px;
+        right:12px;
+    }
+	.d-sd-block{
+		display:block!important;
+	}
+	ul.nav-bar{
+		display:none;
+	}
+	.numbers{
+		padding-top:146px;
+	}
+	.portfolio .row {
+        justify-content: center;
+    }
+	.test .row {
+        justify-content: center;
+    }
+	.test-box {
+        margin-bottom: 30px;
+    }
+	.price{
+		margin-bottom:244px;
+	}
+	.price .row {
+        justify-content: center;
+    }
+	.price-box {
+        margin-bottom: 30px;
+    }
+	.team-box {
+        margin-bottom: 30px;
+    }
+	.contact .row {
+        justify-content: center;
+    }
+	.socialmedia {
+        padding-left:0;
+        padding-top: 22px;
+    }
+	
 }
 /*-------desktop device--------*/
 @media(min-width:992px){
@@ -293,5 +349,18 @@
     .col-lg-12{
 	    width:100%;
 	    padding:0 15px;
+    }
+	ul.nav-bar{
+		display:block!important;
+	}
+	.icofont-navigation-menu{
+		display:none!important;
+	}
+	.d-sd-block{
+		display:none!important;
+	}
+	.socialmedia{
+		padding-left: 474px;
+        padding-bottom: 24px;
     }
 }
