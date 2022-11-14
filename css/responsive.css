@@ -1,7 +1,6 @@
 @media(max-width:576px){
 	.container{
 		width:100%;
-	    overflow-y:hidden;
 	}
     .col-sd-1{
 	    width:8.33%;
@@ -54,15 +53,18 @@
 	.d-sd-block{
 		display:block!important;
 	}
+	.ico-nav{
+		position:relative;
+	}
 	i.icofont-navigation-menu {
         font-size:36px;
         position:absolute;
-        top:16px;
-        right:12px;
+        bottom:8px;
+        right:16px;
     }
-	ul.nav-bar {
-        display:none;
-    }
+	ul.nav-bar{
+		display:none!important;
+	}
 	.banner-content h2{
 		font-size:22px;
 	}
@@ -76,23 +78,59 @@
 	    margin-bottom:20px;
     }
     .about {
-        margin-bottom: 200px;
+        margin-bottom:0px;
     }
-	.number-content{
+	.content{
+		height:250px;
 		margin-top:40px;
 	}
+	.content h2{
+		padding-top:0px;
+	}
+	.numbers{
+		margin-top:0px;
+	}
+	.number-content{
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+	.sun-content i {
+        font-size: 28px;
+    }
+	.d-none{
+		display:block!important;
+	}
+	.portfolio {
+        padding-top:0px;
+        margin-top:70px;
+    }
 	.test-box{
 		margin-bottom:20px;
 	}
     .question-heading {
         margin-top:128px;
     }
+	.team{
+		margin-bottom:0px;
+	}
     .team-box {
         margin-bottom: 20px;
     }
     .contact-heading {
-        margin-top: 100px;
+        margin-top:8px;
     }
+	.name {
+        width: 90%;
+		margin-left: 16px;
+    }
+	.sub input {
+        width: 90%;
+	    margin-left: 16px;
+	}
+    .msg textarea {
+        width: 90%;
+		margin-left: 16px;
+	}	
     .form button{
  	    margin-left:88px;
     }
@@ -102,6 +140,7 @@
 		padding-left:0px;
 	}
 }
+
 /*-------smaller device--------*/
 @media(min-width:576px){
     .container{
@@ -155,7 +194,84 @@
 	    width:100%;
 	    padding:0 15px;
     }
+	.logo-header{
+		display:none;
+	}
+	.d-sd-block{
+		display:block!important;
+	}
+	.btn1{
+		margin-left:114px;
+	}
+	.ico-nav{
+		position:relative;
+	}
+	i.icofont-navigation-menu {
+        font-size:36px;
+        position:absolute;
+        bottom:0px;
+        right:16px;
+    }
+	.banner-content h2{
+		font-size:22px;
+	}
+	.banner-content p{
+		font-size:20px;
+	}
+	.content a.nav-btns2.buttons2 {
+        margin-left:190px;
+    }
+    .price-box{
+	    margin-bottom:20px;
+    }
+    .about {
+        margin-bottom:0px;
+    }
+	.content{
+		height:250px;
+		margin-top:40px;
+	}
+	.content h2{
+		padding-top:0px;
+	}
+	.content-diagram {
+        text-align: center;
+    }
+	.numbers{
+		margin-top:0px;
+	}
+	.number-content{
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+	.d-none{
+		display:block!important;
+	}
+	.test-box{
+		margin-bottom:20px;
+	}
+    .question-heading {
+        margin-top:128px;
+    }
+    .team-box {
+        margin-bottom: 20px;
+    }
+    .contact-heading {
+        margin-top: 100px;
+    }
+    .form button{
+ 	    margin-left:194px;
+    }
+	.media {
+        text-align: center;
+    }
+	.socialmedia{
+	    padding-top:22px;
+        padding-bottom:20px;
+		padding-left: 0px;
+	}
 }
+
 /*-------medium device--------*/
 @media (min-width:768px){
 	.container{
@@ -209,18 +325,17 @@
 	    width:100%;
 	    padding:0 15px;
     }
-	
 	i.icofont-navigation-menu {
         font-size:36px;
         position:absolute;
-        top:16px;
-        right:12px;
+        bottom:4px;
+        right:16px;
     }
 	.d-sd-block{
 		display:block!important;
 	}
 	ul.nav-bar{
-		display:none;
+		display:none!important;
 	}
 	a.nav-btns.buttons {
         margin-left:194px;
@@ -235,19 +350,28 @@
 	a.nav-btns.btn.buttons {
         margin-left: 274px;
     }
+	.content h2 {
+        padding-top:30px;
+    }
 	.content {
         height:230px;
         margin-top: 4px;
     }
 	.content a.nav-btns2.buttons2 {
-        margin-left:230px;
+        margin-left:270px;
     }
 	.numbers{
-		padding-top:146px;
+		margin-top:40px;
+	}
+    .number-content {
+        margin-bottom: 50px;
+    }
+	.d-none{
+		display:none!important;
 	}
 	.sun-content i {
-        left:50px;
-		top:16px;
+		position:static;
+        font-size:40px;
     }
 	.portfolio .row {
         justify-content: center;
@@ -267,18 +391,31 @@
 	.price-box {
         margin-bottom: 30px;
     }
+	.team{
+	    margin-bottom:30px;  
+	}
 	.team-box {
         margin-bottom: 30px;
     }
 	.form button {
         margin-left: 276px;
     }
+	.contact{
+		padding-top:0px;
+	}
+	.name {
+        width: 90%;
+		margin-left:16px;
+	}	
 	.contact .row {
         justify-content: center;
     }
+	.media {
+        text-align: left;
+    }
 	.socialmedia {
-        padding-left:0;
-        padding-top: 22px;
+        text-align:right;
+		margin-top:-34px;
     }
 	.socialmedia a {
     margin-bottom: 20px;
@@ -337,13 +474,16 @@
 	    width:100%;
 	    padding:0 15px;
     }
-	.d-none{
+	.logo-header{
 		display:block!important;
 	}
+	ul.nav-bar {
+        display: block!important;
+    }
 	.d-sd-block{
 		display:none!important;
 	}
-	.icofont-navigation-menu{
+	.ico-nav{
 		display:none;
 	}
 	.logo-header .nav-bar li a {
@@ -353,24 +493,49 @@
         margin-left:0px;
     }
 	a.nav-btns.btn.buttons {
-        margin-left:376px;
+        margin-left:380px;
+    }
+	.client-box {
+        padding-left:60px;
+        padding-right:60px;
+        margin-bottom:20px;
+    }
+	.content h2 {
+        padding-top:50px;
     }
 	.content a.nav-btns2.buttons2 {
-        margin-left: 350px;
+        margin-left:380px;
     }
-	.sun-content{
-		min-height:144px;
+	.numbers {
+        margin-top:0px;
+    }
+	.d-none{
+		display:none!important;
 	}
+	.sun-content {
+        padding-right:0px;
+        padding-left:0px;
+        text-align:center;
+    }
 	.sun-content i {
-        left: 16px;
-        top: 36px;
+        position:static;
+    }
+	.name {
+        width: 92%;
     }
 	.form button {
-        margin-left: 394px;
+        margin-left:394px;
     }
 	.copyright a {
-        left: 32px;
-        top: 56px;
+        left: 2px;
+        top: 46px;
+    }
+	.add{
+		height:0px;
+	}
+	.socialmedia {
+        text-align:right;
+        margin-top:-56px;
 	}
 }
 /*-------larger device--------*/
@@ -426,10 +591,16 @@
 	    width:100%;
 	    padding:0 15px;
     }
-	ul.nav-bar{
+	.logo-header{
 		display:block!important;
 	}
-	.icofont-navigation-menu{
+	ul.nav-bar{
+		display:block;
+	}
+	.logo-header .nav-bar li a {
+        font-size: 16px;
+    }
+	.ico-nav{
 		display:none!important;
 	}
 	.d-sd-block{
@@ -437,6 +608,9 @@
 	}
 	a.nav-btns.buttons {
         margin-left: 0px;
+    }
+	.content h2 {
+       padding-top:66px;
     }
 	.banner-content {
         text-align-last: left;
@@ -448,21 +622,65 @@
 	a.nav-btns.btn.buttons {
         margin-left: 0px;
     }
+	.client-box {
+        padding-left:0px;
+        padding-right:0px; 
+        margin-bottom:0px; 
+    }
 	.content a.nav-btns2.btn2.buttons2 {
         margin-left: 0px;
     }
 	.sun-content .d-none {
         display:block!important;
     }
+    .sect-shape:before {
+        height: 110%;
+	}
+	.price {
+        margin-bottom:0px;
+    }
+    .team {
+        margin-bottom:0px;
+    }
+	.contact {
+        padding-top:0px;
+        margin-bottom:0px;
+        margin-top:0px;
+    }
+	.sun-content {
+        padding-right: 52px;
+        padding-left: 54px;
+    }
+	.sun-content i {
+		position:absolute;
+        left:10px;
+        top:14px;
+    }
 	.form button {
         margin-left:197px;
     }
-	.sun-content i {
-        left: 14px;
-        top: 32px;
+	.media {
+        text-align:left;
     }
-	.socialmedia{
-		padding-left:474px;
-        padding-bottom:24px;
+	.copyright a {
+        left: 4px;
+        top: 46px;
+    }
+	.add {
+        height: 300px;
+    }
+	.socialmedia {
+        padding-top:10px;
+	    margin-top:0px;
+    }
+	.socialmedia a {
+        margin-top:20px;
+        margin-bottom:20px;
     }
 }
+/*--@media(min-width:768px)and(max-width:992px){
+	.container{
+		width:762px;
+	}
+	
+}--*/

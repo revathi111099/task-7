@@ -13,8 +13,8 @@
 }
 .row >*{
 	width:100%;
-	padding-right:14px;
-	padding-left:14px;
+	padding-right:15px;
+	padding-left:15px;
 }
 .d-none{
 	display:none!important;
@@ -92,13 +92,13 @@
     margin-top:4px;	
 }
 .logo a span{
-	color:red;
+	color:rgb(224 58 60);
 }
 .logo-header{
 	margin-top:10px;
 }
-.nav-bar li a.active home{
-	color:red;
+.nav-bar > li a.nav-list.active{
+	color:rgb(224 58 60);
 }
 ul.nav-bar {
     text-align: right;
@@ -119,7 +119,7 @@ ul.nav-bar {
 	font-family:"raleway",san-serif;
 }
 .nav-bar > li a.nav-list:hover{
-	color:red;
+	color:rgb(224 58 60);
 }
 .nav-btns{
 	font-size:14px;
@@ -248,7 +248,6 @@ ul.nav-bar {
 .client-box{
     padding-left:28px;
 	padding-right:23px;
-	align-items:center;
 }
 .client-box img{
 	width:100%;
@@ -274,7 +273,7 @@ ul.nav-bar {
 	position:absolute;
 	top:0px;
 	left:0px;
-	height:112%;
+	height:100%;
 	width:100%;
 	background-color:black;
     transform:skewY(-3deg);
@@ -376,8 +375,8 @@ ul.nav-bar {
     margin-bottom:30px;
 	font-family:"raleway",san-serif;
 	border:1px solid rgb(185 185 185);
-	padding-top:35px;
-	padding-bottom:35px;
+	padding-top:12px;
+	padding-bottom:12px;
 	padding-right:10px;
 	padding-left:60px;
 	position:relative;
@@ -608,27 +607,28 @@ ul.nav-bar {
 	position:relative;
     border:1px solid white;
     box-shadow:0px 2px 35px rgb(0 0 0 / 6%);
-    height:300px;
-    padding-left:20px;
-	padding-right:20px;
+    height:290px;
+    padding-left:30px;
+	padding-right:30px;
     padding-top:20px;
     border-radius:16px;
 }
 .test-box img{
 	width:85px;
-	padding-bottom:20px;
+	border-radius:6px;
 }
 .test-box h2{
 	position:absolute;
     left:125px;
-    top:28px;
+    top:46px;
+	font-size:18px;
 }
 .test-box h3{
 	position:absolute;
     left:125px;
-    top:65px;
+    top:70px;
     color:grey;
-    font-size:15px;
+    font-size:14px;
     font-weight:500;
 }
 .test-box i{
@@ -643,10 +643,9 @@ ul.nav-bar {
     transform:translateY(10px);
 }
 .test-box p{
-	font-size:18px;
-    font-weight:300;
+	font-size:16px;
+	padding-top:20px;
     font-style:italic;
-    color:grey;
 }
 /*---------------test ends-------------------*/
 /*---------------pricing start----------------*/
@@ -734,6 +733,8 @@ ul.nav-bar {
 }
 .question-content{
 	position:relative;
+	padding-bottom:20px;
+	padding-top:20px;
 }
 .question-content i{
 	position:absolute;
@@ -748,7 +749,7 @@ ul.nav-bar {
 	color:rgb(52 58 64);
 	font-family: "raleway",sans-serif;
 }
-.question-content p:hover{
+.question-content:hover{
 	color:rgb(224 58 60);
 }
 /*---------------question ends-------------------*/
@@ -761,7 +762,7 @@ ul.nav-bar {
 .team-heading h2{
 	font-size:32px;
 	text-align:center;
-	padding-top:26px;
+	padding-top:50px;
 	color:white;
 	padding-bottom:10px;
 }
@@ -782,8 +783,10 @@ ul.nav-bar {
 }
 .team-links{
 	position:absolute;
-    left:12%;
+    left:0%;
     bottom:110px;
+	width:100%;
+	text-align:center;
     transform:translateY(-3%);
 }
 .team-links a{
@@ -883,7 +886,8 @@ ul.nav-bar {
 }
 .name{
 	width:100%;
-    padding-top:20px;
+    padding-top:10px;
+	padding-bottom:10px;
     padding-left:10px;
     border:1px solid rgb(206 212 218);
     padding-right:10px;
@@ -897,7 +901,7 @@ ul.nav-bar {
     padding-left:10px;
     border:1px solid rgb(206 212 218);
     font-size:14px;
-    padding-bottom:20px;
+    padding-bottom:10px;
     border-radius:6px;
     margin-bottom:20px;
 }
@@ -908,7 +912,7 @@ ul.nav-bar {
     padding-left:11px;
     border:1px solid rgb(206 212 218);
     font-size:14px;
-    padding-bottom:20px;
+    padding-bottom:10px;
     border-radius:6px;
 	margin-bottom:10px;
 }
