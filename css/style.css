@@ -16,9 +16,6 @@
 	padding-right:15px;
 	padding-left:15px;
 }
-.d-none{
-	display:none!important;
-}
 /*---------container ends---------*/
 /*------------flex style-----------*/
 .align-items-center{
@@ -100,8 +97,8 @@
 .nav-bar > li a.nav-list.active{
 	color:rgb(224 58 60);
 }
-ul.nav-bar {
-    text-align: right;
+.nav-bar {
+    text-align:right;
 }
 .logo-header .nav-bar > li {
 	display:inline-block;
@@ -247,7 +244,7 @@ ul.nav-bar {
 }
 .client-box{
     padding-left:28px;
-	padding-right:23px;
+	padding-right:28px;
 }
 .client-box img{
 	width:100%;

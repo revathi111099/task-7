@@ -59,20 +59,36 @@
 	i.icofont-navigation-menu {
         font-size:36px;
         position:absolute;
-        bottom:8px;
-        right:16px;
+        bottom:0px;
+        left:321px;
     }
-	ul.nav-bar{
+	.nav-bar{
 		display:none!important;
 	}
+	.banner-content {
+        padding-top: 112px;
+    }
 	.banner-content h2{
-		font-size:22px;
+		font-size: 28px;
+        text-align: center;
 	}
 	.banner-content p{
-		font-size:20px;
+		font-size: 20px;
+        padding-left: 24px;
 	}
+	a.nav-btns.btn.buttons {
+        margin-left:94px;
+    }
 	.content a.nav-btns2.buttons2 {
         margin-left:82px;
+    }
+	.client {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 0px;
+    }
+	.client-box img {
+        margin-bottom: 10px;
     }
     .price-box{
 	    margin-bottom:20px;
@@ -86,6 +102,29 @@
 	}
 	.content h2{
 		padding-top:0px;
+		font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+	}
+	.content p {
+        text-align: center;
+        font-weight: 500;
+    }
+	.icons {
+        text-align: center;
+    }
+	.content-diagram {
+		margin-bottom:0px;
+	}
+	.content-diagram h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+	.content-diagram p {
+		font-weight: 100;
+	}
+	.d-none{
+		display:none!important;
 	}
 	.numbers{
 		margin-top:0px;
@@ -96,28 +135,68 @@
 	}
 	.sun-content i {
         font-size: 28px;
+		position: absolute;
+        left: 20px;
+        top: 10px;
     }
-	.d-none{
-		display:block!important;
+	.direct{
+		flex-direction:column-reverse!important;
 	}
+	.word-content img {
+        margin-bottom: 16px;
+    }
+	.service-heading p {
+        color: rgb(255 255 255);
+        text-align: center;
+        font-weight: 500;
+		line-height: 1.5;
+    }
+	.port-heading p {
+        font-size: 17px;
+        color: rgb(92 90 98);
+        text-align: center;
+        font-weight: 500;
+		line-height: 1.5;
+    }
 	.portfolio {
         padding-top:0px;
         margin-top:70px;
     }
+	.test-heading p {
+        color: black;
+        text-align: center;
+		line-height: 1.5;
+    }
 	.test-box{
 		margin-bottom:20px;
 	}
+	.price-heading p {
+        color: white;
+        font-weight: 500;
+        line-height: 1.5;
+    }
     .question-heading {
         margin-top:128px;
+    }
+	.question-heading h2 {
+        font-size: 32px;
     }
 	.team{
 		margin-bottom:0px;
 	}
+	.team-heading p {
+        color: rgb(255 255 255);
+        text-align: center;
+    }
     .team-box {
         margin-bottom: 20px;
     }
     .contact-heading {
         margin-top:8px;
+    }
+	.contact-heading p {
+        color: rgb(0 0 0);
+        text-align: center;
     }
 	.name {
         width: 90%;
@@ -133,6 +212,13 @@
 	}	
     .form button{
  	    margin-left:88px;
+    }
+	/*--.copyright {
+        text-align: center;
+        font-size: 14px;
+    }--*/
+	.news {
+        padding-bottom: 30px;
     }
 	.socialmedia{
 	    padding-top:22px;
@@ -325,37 +411,47 @@
 	    width:100%;
 	    padding:0 15px;
     }
-	i.icofont-navigation-menu {
-        font-size:36px;
-        position:absolute;
-        bottom:4px;
-        right:16px;
-    }
 	.d-sd-block{
 		display:block!important;
 	}
-	ul.nav-bar{
+	.ico-nav{
+		position:relative;
+	}
+	i.icofont-navigation-menu {
+        font-size:36px;
+        position:absolute;
+        bottom:0px;
+        right:16px;
+    }
+	.nav-bar{
 		display:none!important;
 	}
 	a.nav-btns.buttons {
         margin-left:194px;
     }
-	.banner-content {
-        text-align-last: center;
-		padding-top:122px;
+	.banner {
+        height: 100vh;
+        padding-top: 260px;
     }
 	.banner-content h2 {
-        font-size:38px;
+        font-size:30px;
+    }
+	.banner-content p {
+        font-size: 19px;
     }
 	a.nav-btns.btn.buttons {
         margin-left: 274px;
     }
-	.content h2 {
-        padding-top:30px;
-    }
 	.content {
         height:230px;
         margin-top: 4px;
+    }
+	.content h2 {
+        padding-top:30px;
+		padding-left: 88px;
+    }
+	.content p {
+        text-align: center;
     }
 	.content a.nav-btns2.buttons2 {
         margin-left:270px;
@@ -373,11 +469,32 @@
 		position:static;
         font-size:40px;
     }
+	.direct{
+		flex-direction:column-reverse!important;
+	}
+	.word-content img {
+        margin-bottom: 30px;
+    }
+	.service-heading p {
+        font-size: 17px;
+        color: white;
+        text-align: center;
+        line-height: 1.5;
+    }
 	.portfolio .row {
         justify-content: center;
     }
+	.port-heading p {
+        font-size: 17px;
+        line-height: 1.5;
+    }
 	.test .row {
         justify-content: center;
+    }
+	.test-heading p {
+        font-size: 17px;
+        color: grey;
+        line-height: 1.5;
     }
 	.test-box {
         margin-bottom: 30px;
@@ -388,12 +505,26 @@
 	.price .row {
         justify-content: center;
     }
+	.price-heading p {
+        font-size: 17px;
+        color: rgb(255 255 255);
+        line-height: 1.5;
+    }
 	.price-box {
         margin-bottom: 30px;
+    }
+	.question-heading h2 {
+        font-size: 34px;
     }
 	.team{
 	    margin-bottom:30px;  
 	}
+	.team-heading p {
+        font-size: 17px;
+        text-align: center;
+        color: rgb(255 255 255);
+        line-height: 1.5;
+    }
 	.team-box {
         margin-bottom: 30px;
     }
@@ -403,6 +534,12 @@
 	.contact{
 		padding-top:0px;
 	}
+	.contact-heading p {
+        font-size: 17px;
+        text-align: center;
+        color: grey;
+        line-height: 1.5;
+    }
 	.name {
         width: 90%;
 		margin-left:16px;
@@ -474,6 +611,9 @@
 	    width:100%;
 	    padding:0 15px;
     }
+	.d-lg-block{
+		display:block!important;
+	}
 	.logo-header{
 		display:block!important;
 	}
@@ -484,7 +624,7 @@
 		display:none!important;
 	}
 	.ico-nav{
-		display:none;
+		display:none!important;
 	}
 	.logo-header .nav-bar li a {
         font-size: 14px;
@@ -492,8 +632,17 @@
 	a.nav-btns.buttons {
         margin-left:0px;
     }
+	.banner-content {
+        padding-top: 70px;
+    }
+	.banner-content h2 {
+        font-size: 50px;
+    }
+	.banner-content p {
+        font-size: 24px;
+    }
 	a.nav-btns.btn.buttons {
-        margin-left:380px;
+        margin-left:10px;
     }
 	.client-box {
         padding-left:60px;
@@ -502,29 +651,45 @@
     }
 	.content h2 {
         padding-top:50px;
+		padding-left:0px;
     }
+	.content p{
+		text-align:left;
+	}
 	.content a.nav-btns2.buttons2 {
-        margin-left:380px;
+        margin-left:6px;
     }
 	.numbers {
         margin-top:0px;
     }
 	.d-none{
-		display:none!important;
+		display:block!important;
+	}
+	.direct{
+		flex-direction:unset!important;
+	}
+	.sun-content i {
+        position: absolute;
 	}
 	.sun-content {
-        padding-right:0px;
-        padding-left:0px;
-        text-align:center;
+        min-height:112px;
     }
-	.sun-content i {
-        position:static;
+	.sun-content p {
+        padding-top: 10px;
+		font-size:22px;
+    }
+	.sun-content p {
+        font-weight: 600;
+    }
+	.team-heading p {
+        font-weight: 500;
     }
 	.name {
         width: 92%;
+		margin-left:0px;
     }
 	.form button {
-        margin-left:394px;
+        margin-left:144px;
     }
 	.copyright a {
         left: 2px;
@@ -591,14 +756,21 @@
 	    width:100%;
 	    padding:0 15px;
     }
+	.logo a {
+        font-size: 28px;
+        padding-left: 16px;
+    }
 	.logo-header{
 		display:block!important;
 	}
-	ul.nav-bar{
-		display:block;
+	.nav-bar{
+		display:block!important;
 	}
 	.logo-header .nav-bar li a {
-        font-size: 16px;
+        font-size: 14px;
+    }
+	.nav-bar {
+        text-align:right;
     }
 	.ico-nav{
 		display:none!important;
@@ -610,14 +782,21 @@
         margin-left: 0px;
     }
 	.content h2 {
-       padding-top:66px;
+        padding-top:66px;
+    }
+	.banner {
+        padding-top:70px;
     }
 	.banner-content {
         text-align-last: left;
 		padding-top:70px;
     }
 	.banner-content h2 {
-        font-size: 48px;
+        font-size: 46px;
+    }
+	.banner-content p {
+        font-size: 22px;
+        font-weight: 500;
     }
 	a.nav-btns.btn.buttons {
         margin-left: 0px;
@@ -630,32 +809,80 @@
 	.content a.nav-btns2.btn2.buttons2 {
         margin-left: 0px;
     }
+	.about {
+        margin-bottom: 70px;
+    }
+	.content p {
+        text-align: left;
+        font-family: "raleway",sans-serif;
+    }
+	.buttons2 {
+        font-size: 12px;
+        font-weight: 500;
+	}
+	.content-diagram h3 {
+        font-size: 20px;
+    }
+	.content-diagram{
+		text-align:left;
+	}
+	.number-content h2 {
+        font-size: 30px;
+	}
 	.sun-content .d-none {
         display:block!important;
     }
+	.sun-content {
+        padding-top: 22px;
+        padding-bottom: 12px;
+        padding-right: 10px;
+        padding-left: 60px;
+		min-height:96px;
+    }
+	.sun-content i {
+		position:absolute;
+        left:10px;
+        top:26px;
+    }
+	.sun-content p {
+        font-weight: 500;
+	}
+	.direct{
+		flex-direction:unset!important;
+	}
+	.service-heading p {
+        font-size: 16px;
+	}
+	.port-heading p {
+        font-size: 16px;
+	}
+	.test-heading p {
+        font-size: 16px;
+	}
     .sect-shape:before {
         height: 110%;
 	}
 	.price {
         margin-bottom:0px;
     }
+	.price-heading p {
+		font-size: 16px;
+        font-weight: 500;
+    }
     .team {
         margin-bottom:0px;
     }
+	.team-heading p {
+        font-size: 16px;
+	}
 	.contact {
         padding-top:0px;
         margin-bottom:0px;
         margin-top:0px;
     }
-	.sun-content {
-        padding-right: 52px;
-        padding-left: 54px;
-    }
-	.sun-content i {
-		position:absolute;
-        left:10px;
-        top:14px;
-    }
+	.contact-heading p {
+        font-size: 16px;
+	}
 	.form button {
         margin-left:197px;
     }
