@@ -859,6 +859,9 @@
         padding-right:0px; 
         margin-bottom:0px; 
     }
+	.content {
+        text-align: left;
+    }
 	.content a.nav-btns2.btn2.buttons2 {
         margin-left: 0px;
     }
@@ -891,6 +894,8 @@
         padding-right: 10px;
         padding-left: 60px;
 		min-height:96px;
+		margin-bottom:20px;
+		height:0px;
     }
 	.sun-content i {
 		position:absolute;
