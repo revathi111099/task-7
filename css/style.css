@@ -1037,20 +1037,20 @@
 .media{
 	background-color:black;
 }
-.copyright{
+.design{
 	color:white;
 	padding-top:26px;
 	position: relative;
 }
-.copyright a{
+.design a{
 	text-decoration:none;
     color:rgb(224 58 60);
     padding-left:96px;
     position:absolute;
-    left:6px;
-    top:46px;
+    left:4px;
+    top:28px;
 }
-.copyright a:hover{
+.design a:hover{
 	color:rgb(231 102 104);
 }
 .socialmedia{

@@ -1,6 +1,7 @@
 @media(max-width:576px){
 	.container{
 		width:100%;
+		overflow-x:hidden;
 	}
     .col-sd-1{
 	    width:8.33%;
@@ -115,6 +116,7 @@
     }
 	.content-diagram {
 		margin-bottom:0px;
+		padding-top: 120px;
 	}
 	.content-diagram h3 {
         font-size: 22px;
@@ -132,6 +134,10 @@
 	.number-content{
 		margin-top:40px;
 		margin-bottom:40px;
+	}
+	.sun-content{
+		height: 86%;
+		padding-left:0px;
 	}
 	.sun-content i {
         font-size: 28px;
@@ -287,7 +293,7 @@
 		display:block!important;
 	}
 	.btn1{
-		margin-left:114px;
+		margin-left:120px;
 	}
 	.ico-nav{
 		position:relative;
@@ -298,30 +304,56 @@
         bottom:0px;
         right:16px;
     }
+	.banner{
+		height: 366px;
+		background-position:center;
+		padding-top:84;
+	}
+	.banner-content{
+		text-align:center;
+		padding-top:0px;
+	}
 	.banner-content h2{
-		font-size:22px;
+		font-size:30px;
 	}
 	.banner-content p{
 		font-size:20px;
 	}
-	.content a.nav-btns2.buttons2 {
-        margin-left:190px;
+	a.nav-btns.btn.buttons {
+        margin-left: 200px;
     }
+	.content{
+		height:250px;
+		margin-top:40px;
+		text-align:center;
+	}
+	.content h2{
+		padding-top:0px;
+		font-size:36px;
+	}
+	.content-diagram {
+        text-align: center;
+    }
+	.content a.nav-btns2.buttons2 {
+        margin-left:20px;
+    }
+	.sun-content{
+		height:100%;
+	}
+	.sun-content i{
+		left: 36px;
+	}
+	.d-none{
+		display:none!important;
+	}
+	.word-content h2{
+		padding-top: 20px;
+	}
     .price-box{
 	    margin-bottom:20px;
     }
     .about {
         margin-bottom:0px;
-    }
-	.content{
-		height:250px;
-		margin-top:40px;
-	}
-	.content h2{
-		padding-top:0px;
-	}
-	.content-diagram {
-        text-align: center;
     }
 	.numbers{
 		margin-top:0px;
@@ -329,9 +361,6 @@
 	.number-content{
 		margin-top:40px;
 		margin-bottom:40px;
-	}
-	.d-none{
-		display:block!important;
 	}
 	.test-box{
 		margin-bottom:20px;
@@ -345,12 +374,22 @@
     .contact-heading {
         margin-top: 100px;
     }
+	.name {
+        width: 86%;
+		margin-left: 18px;
+	}
     .form button{
  	    margin-left:194px;
     }
 	.media {
         text-align: center;
     }
+	.design a {
+        text-decoration: none;
+        color: rgb(224 58 60);
+		position: static;
+        padding-left: 0px;
+	}
 	.socialmedia{
 	    padding-top:22px;
         padding-bottom:20px;
@@ -433,6 +472,9 @@
         height: 100vh;
         padding-top: 260px;
     }
+	.banner-content{
+		text-align: center;
+	}
 	.banner-content h2 {
         font-size:30px;
     }
@@ -441,6 +483,9 @@
     }
 	a.nav-btns.btn.buttons {
         margin-left: 274px;
+    }
+	.client-box {
+        margin-bottom: 20px;
     }
 	.content {
         height:230px;
@@ -632,6 +677,9 @@
 	a.nav-btns.buttons {
         margin-left:0px;
     }
+	.banner{
+		padding-top: 238px;
+	}
 	.banner-content {
         padding-top: 70px;
     }
@@ -670,6 +718,7 @@
 	}
 	.sun-content i {
         position: absolute;
+		top: 28px;
 	}
 	.sun-content {
         min-height:112px;
@@ -681,6 +730,9 @@
 	.sun-content p {
         font-weight: 600;
     }
+	.price-heading p{
+		font-weight: 500;
+	}
 	.team-heading p {
         font-weight: 500;
     }
@@ -789,7 +841,8 @@
     }
 	.banner-content {
         text-align-last: left;
-		padding-top:70px;
+		padding-top: 100px;
+        text-align: left;
     }
 	.banner-content h2 {
         font-size: 46px;
@@ -842,7 +895,7 @@
 	.sun-content i {
 		position:absolute;
         left:10px;
-        top:26px;
+        top:38px;
     }
 	.sun-content p {
         font-weight: 500;
@@ -889,20 +942,21 @@
 	.media {
         text-align:left;
     }
-	.copyright a {
+	.design a {
         left: 4px;
-        top: 46px;
+        top: 28px!important;
     }
 	.add {
         height: 300px;
     }
 	.socialmedia {
         padding-top:10px;
+		padding-bottom:10px;
 	    margin-top:0px;
     }
 	.socialmedia a {
-        margin-top:20px;
-        margin-bottom:20px;
+        margin-top:10px;
+        margin-bottom:10px;
     }
 }
 /*--@media(min-width:768px)and(max-width:992px){
