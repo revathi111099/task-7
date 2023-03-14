@@ -98,7 +98,6 @@
         margin-bottom:0px;
     }
 	.content{
-		height:250px;
 		margin-top:40px;
 	}
 	.content h2{
@@ -116,7 +115,6 @@
     }
 	.content-diagram {
 		margin-bottom:0px;
-		padding-top: 120px;
 	}
 	.content-diagram h3 {
         font-size: 22px;
@@ -323,7 +321,6 @@
         margin-left: 200px;
     }
 	.content{
-		height:250px;
 		margin-top:40px;
 		text-align:center;
 	}
@@ -474,6 +471,7 @@
     }
 	.banner-content{
 		text-align: center;
+		padding-top: 184px;
 	}
 	.banner-content h2 {
         font-size:30px;
@@ -488,7 +486,6 @@
         margin-bottom: 20px;
     }
 	.content {
-        height:230px;
         margin-top: 4px;
     }
 	.content h2 {
@@ -499,7 +496,7 @@
         text-align: center;
     }
 	.content a.nav-btns2.buttons2 {
-        margin-left:270px;
+        margin-left:0px;
     }
 	.numbers{
 		margin-top:40px;
@@ -510,9 +507,14 @@
 	.d-none{
 		display:none!important;
 	}
+	.sun-content {
+        height: 80%;
+    }
 	.sun-content i {
-		position:static;
-        font-size:40px;
+        padding-top: 10px;
+        position: static;
+        font-size: 40px;
+        display: inline-block;
     }
 	.direct{
 		flex-direction:column-reverse!important;
@@ -597,10 +599,10 @@
     }
 	.socialmedia {
         text-align:right;
-		margin-top:-34px;
+		margin-top:-54px;
     }
 	.socialmedia a {
-    margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 }
 /*-------desktop device--------*/
@@ -719,6 +721,7 @@
 	.sun-content i {
         position: absolute;
 		top: 28px;
+		left: 12px;
 	}
 	.sun-content {
         min-height:112px;
@@ -866,6 +869,7 @@
         margin-left: 0px;
     }
 	.about {
+		padding-top:26px;
         margin-bottom: 70px;
     }
 	.content p {
@@ -889,8 +893,6 @@
         display:block!important;
     }
 	.sun-content {
-        padding-top: 22px;
-        padding-bottom: 12px;
         padding-right: 10px;
         padding-left: 60px;
 		min-height:96px;
@@ -900,7 +902,7 @@
 	.sun-content i {
 		position:absolute;
         left:10px;
-        top:38px;
+        top:18px!important;
     }
 	.sun-content p {
         font-weight: 500;
@@ -908,8 +910,14 @@
 	.direct{
 		flex-direction:unset!important;
 	}
+	.services {
+        padding-top: 24px;
+    }
 	.service-heading p {
         font-size: 16px;
+	}
+	.portfolio {
+        padding-top: 70px;
 	}
 	.port-heading p {
         font-size: 16px;
@@ -928,13 +936,14 @@
         font-weight: 500;
     }
     .team {
+		padding-top:24px;
         margin-bottom:0px;
     }
 	.team-heading p {
         font-size: 16px;
 	}
 	.contact {
-        padding-top:0px;
+        padding-top:6px;
         margin-bottom:0px;
         margin-top:0px;
     }

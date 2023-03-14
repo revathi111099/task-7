@@ -256,6 +256,7 @@
 	filter:grayscale(0%);
     opacity:1;
 }
+/*---------------------about start---------------------*/
 .about {
     margin-bottom:20px;
 	padding-top:30px;
@@ -278,8 +279,8 @@
 }
 .content{
 	color:white;
-	height:400px;
-	margin-top:79px;
+	padding-top:78px;
+	padding-bottom:30px;
 }
 .content h2{
 	font-size:30px;
@@ -287,17 +288,16 @@
     padding-top:60px;
 }
 .content p{
-	padding-bottom:5px;
+	padding-bottom:6px;
 	font-size:17px;
     font-weight:400;
-    margin-top:15px;
-	margin-bottom:30px;
+    padding-top:16px;
+	padding-bottom:30px;
 	font-family:"raleway",san-serif;
 }
 .content-diagram{
-	height:175px;
-	margin-bottom:22px;
-	margin-top:53px;
+	padding-bottom:22px;
+	padding-top:53px;
 	color:white;
 }
 .content-diagram h3{
@@ -306,16 +306,14 @@
 .content-diagram p{
 	font-size:15px;
     font-weight:400;
-    margin-top:15px;
-	margin-bottom:30px;
+    padding-top:15px;
+	padding-bottom:30px;
 	color:grey;
 	font-family:"raleway",san-serif;
 }
 .icons{
 	font-size:40px;
 	color:rgb(224 58 60);
-	margin-bottom:10px;
-	margin-top:-12px;
 }
 /*---------------about ends-------------------*/
 /*---------------numbers start----------------*/
@@ -729,25 +727,53 @@
 	margin-bottom:20px;
 }
 .question-content{
-	position:relative;
-	padding-bottom:20px;
 	padding-top:20px;
+	border-bottom:1px solid rgb(238 238 238);
 }
 .question-content i{
-	position:absolute;
-	right:0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	line-height: 20px;
 }
 .question-content p{
 	font-size:18px;
+    padding-bottom:10px;
     color:grey;
     font-weight:500;
-	padding-bottom:20px;
-	padding-top:20px;
 	color:rgb(52 58 64);
 	font-family: "raleway",sans-serif;
 }
-.question-content:hover{
+.ques-cont-1:hover{
 	color:rgb(224 58 60);
+}
+.ques-cont-1{
+	position:relative;
+	transition:0.5s all ease;
+	overflow: hidden;
+}
+.content-secret{
+	overflow: hidden;
+}
+.content-secret{
+	position:absolute;
+	top: 25%;
+    left: 0;
+    padding-bottom: 10px;
+	color:rgb(33 37 41);
+	opacity:0;
+	visibility:hidden;
+	transform: translateY(0%);
+	transition:0.5s all ease;
+}
+.ques-cont-1:hover .content-secret{
+	transform: translateY(10%);
+	opacity:1;
+	visibility:visible;
+	transition:0.5s all ease;
+}
+.ques-cont-1:hover {
+	padding-bottom: 76px;
 }
 /*---------------question ends-------------------*/
 /*---------------team start---------------------*/
